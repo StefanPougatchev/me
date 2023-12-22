@@ -13,7 +13,7 @@
   {
     "id": 2,
     "url": "https://stefanpougatchev.github.io/dictionary-web-app/",
-    "thumbnail": "https://private-user-images.githubusercontent.com/31377820/280834681-b0215c1d-56e2-46af-8106-555dfa1d8eaa.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDMyNjM4MjQsIm5iZiI6MTcwMzI2MzUyNCwicGF0aCI6Ii8zMTM3NzgyMC8yODA4MzQ2ODEtYjAyMTVjMWQtNTZlMi00NmFmLTgxMDYtNTU1ZGZhMWQ4ZWFhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjIyVDE2NDUyNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ2ZDljOTFiZTRkMWE3MjY1NzlhNWY4Y2VhYzQ5NzM4ZDZhMDRjNGE4MjU5NjFhYTViMjVjODE3MDY4OGI2ZDYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.WBk8iSq2GNKn_Cyl0DZt1aBM3nbXzQ0dhOOvrib1eIs",
+    "thumbnail": "https://res.cloudinary.com/dz209s6jk/image/upload/v1674240170/Challenges/rbnegnvjzuku1uozm39c.jpg",
     "categoryText": "JS & API",
     "title": "Dictonary Web App",
     "description": "A web app that allows users to search for words and get their definitions. It also plays the pronunciation of the word.",
