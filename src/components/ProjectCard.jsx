@@ -81,6 +81,7 @@ const ProjectThumbnail = styled.img`
   border-radius: 10px;
   background: #f4d04e;
   object-fit: cover;
+  height: 200px;
 `;
 
 const ProjectDetailsContainer = styled.div`

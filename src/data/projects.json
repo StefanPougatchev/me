@@ -2,7 +2,7 @@
   {
     "id": 1,
     "url": "https://stefanpougatchev.github.io/qr-component/",
-    "thumbnail": "./src/assets/qr-component.jpeg",
+    "thumbnail": "https://res.cloudinary.com/dz209s6jk/image/upload/v1642681473/Challenges/lzfaukzhigbavv5sc26b.jpg",
     "categoryText": "JS & Styled Components",
     "title": "QR Component",
     "description": "Simple QR component made with React and Styled Components.",
@@ -13,7 +13,7 @@
   {
     "id": 2,
     "url": "https://stefanpougatchev.github.io/dictionary-web-app/",
-    "thumbnail": "./src/assets/dictonary-web-app.png",
+    "thumbnail": "https://private-user-images.githubusercontent.com/31377820/280834681-b0215c1d-56e2-46af-8106-555dfa1d8eaa.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDMyNjM4MjQsIm5iZiI6MTcwMzI2MzUyNCwicGF0aCI6Ii8zMTM3NzgyMC8yODA4MzQ2ODEtYjAyMTVjMWQtNTZlMi00NmFmLTgxMDYtNTU1ZGZhMWQ4ZWFhLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMjIlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjIyVDE2NDUyNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ2ZDljOTFiZTRkMWE3MjY1NzlhNWY4Y2VhYzQ5NzM4ZDZhMDRjNGE4MjU5NjFhYTViMjVjODE3MDY4OGI2ZDYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.WBk8iSq2GNKn_Cyl0DZt1aBM3nbXzQ0dhOOvrib1eIs",
     "categoryText": "JS & API",
     "title": "Dictonary Web App",
     "description": "A web app that allows users to search for words and get their definitions. It also plays the pronunciation of the word.",
@@ -30,7 +30,7 @@
   {
     "id": 3,
     "url": "https://stefanpougatchev.github.io/github-user-search-app/",
-    "thumbnail": "./src/assets/github-user-search-app.jpeg",
+    "thumbnail": "https://res.cloudinary.com/dz209s6jk/image/upload/v1630058595/Challenges/axhe4rw0jpykyhdphhwc.jpg",
     "categoryText": "JS & API",
     "title": "Github User Search App",
     "description": "A web app that allows users to search for Github users and get their information.",
@@ -41,7 +41,7 @@
   {
     "id": 4,
     "url": "https://stefanpougatchev.github.io/advice-generator-app/",
-    "thumbnail": "./src/assets/advice.jpeg",
+    "thumbnail": "https://res.cloudinary.com/dz209s6jk/image/upload/v1645105312/Challenges/syo43ktrlu3huqaqye2c.jpg",
     "categoryText": "JS & API",
     "title": "Advice Generator App",
     "description": "A web app that generates random advice.",
@@ -52,7 +52,7 @@
   {
     "id": 5,
     "url": "https://stefanpougatchev.github.io/interactive-rating-component/",
-    "thumbnail": "./src/assets/rating-component.jpeg",
+    "thumbnail": "https://res.cloudinary.com/dz209s6jk/image/upload/v1647605683/Challenges/mow7ca07z3qa0ffbwc2p.jpg",
     "categoryText": "JS & API",
     "title": "Interactive Rating Component",
     "description": "Simpel rating component made with React and Styled Components.",
