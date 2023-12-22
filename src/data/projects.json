@@ -59,5 +59,16 @@
     "date": "October 2022",
     "icons": ["FaReact", "RiJavascriptFill", "SiStyledcomponents"],
     "repo": "https://github.com/StefanPougatchev/interactive-rating-component"
+  },
+  {
+    "id": 6,
+    "url": "https://stefanpougatchev.github.io/faq-accordion/",
+    "thumbnail": "https://res.cloudinary.com/dz209s6jk/image/upload/v1701355692/Challenges/wjhbnth49rytugjjmucl.jpg",
+    "categoryText": "JS & API",
+    "title": "Faq Accordion",
+    "description": "Simpel Accordion component made with React and Styled Components.",
+    "date": "December 2023",
+    "icons": ["FaReact", "RiJavascriptFill", "SiStyledcomponents"],
+    "repo": "https://github.com/StefanPougatchev/faq-accordion"
   }
 ]
