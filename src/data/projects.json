@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "url": "https://project1.example.com",
+    "thumbnail": "https://via.placeholder.com/327x200",
+    "categoryText": "JS & API",
+    "title": "Dictonary Web App",
+    "description": "A web app that allows users to search for words and get their definitions. It also plays the pronunciation of the word.",
+    "date": "2023-12-01",
+    "icons": ["FaReact", "RiJavascriptFill", "FaFileAudio", "TbApi"],
+    "repo": "https://github.com"
+  },
+  {
+    "id": 2,
+    "url": "https://project1.example.com",
+    "thumbnail": "https://via.placeholder.com/327x200",
+    "categoryText": "JS & API",
+    "title": "Dictonary Web App",
+    "description": "A web app that allows users to search for words and get their definitions. It also plays the pronunciation of the word.",
+    "date": "2023-12-01",
+    "icons": ["FaReact", "RiJavascriptFill", "FaFileAudio", "TbApi"],
+    "repo": "https://github.com"
+  }
+]

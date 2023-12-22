@@ -1,41 +1,58 @@
+/* eslint-disable react/prop-types */
 import styled from 'styled-components';
 import { FaReact } from 'react-icons/fa';
 import { RiJavascriptFill } from 'react-icons/ri';
 import { FaFileAudio } from 'react-icons/fa';
 import { TbApi } from 'react-icons/tb';
+import { FaGithub } from 'react-icons/fa';
 
-const ProjectCard = ({ icons, date, title, description }) => {
+const iconComponents = {
+  FaReact,
+  RiJavascriptFill,
+  FaFileAudio,
+  TbApi,
+};
+
+const ProjectCard = ({ projectInfo }) => {
   return (
     <CardWrapper>
-      <ProjectThumbnail src='https://via.placeholder.com/327x200' />
+      <ProjectThumbnail src={projectInfo.thumbnail} />
       <ProjectDetailsContainer>
         <ProjectCategory>
-          <CategoryText>JS & API</CategoryText>
+          <ProjectAnchor
+            target='_blank'
+            rel='noopener noreferrer'
+            href={projectInfo.repo}
+          >
+            <CategoryText>Github</CategoryText>
+            {/* github link to repo */}
+
+            <FaGithub
+              size={12}
+              color='#111'
+            />
+          </ProjectAnchor>
         </ProjectCategory>
-        <ProjectDate>Dec 2023</ProjectDate>
-        <ProjectTitle>Dictonary Web App</ProjectTitle>
-        <ProjectDescription>
-          A web app that allows users to search for the meaning of words. Play
-          the audio to hear the pronunciation of the word.
-        </ProjectDescription>
+        <ProjectDate>{projectInfo.date}</ProjectDate>
+        <ProjectTitle
+          target='_blank'
+          href={projectInfo.url}
+        >
+          {projectInfo.title}
+        </ProjectTitle>
+        <ProjectDescription>{projectInfo.description}</ProjectDescription>
       </ProjectDetailsContainer>
       <TechStackContainer>
-        <FaReact
-          size={24}
-          color='#61DBFB'
-        />
-        <RiJavascriptFill
-          size={24}
-          color='#F7DF1E'
-        />
-        <FaFileAudio
-          size={24}
-          color='#111'
-        />
-        <TbApi
-          size={24}
-          color='#111'
-        />
+        {projectInfo.icons.map((iconName) => {
+          const IconComponent = iconComponents[iconName];
+          return (
+            <IconComponent
+              key={iconName}
+              size={24}
+              color='#f4d04e'
+            />
+          );
+        })}
       </TechStackContainer>
     </CardWrapper>
   );
@@ -79,11 +96,18 @@ const TechStackContainer = styled.div`
 const ProjectCategory = styled.div`
   display: flex;
   padding: 4px 12px;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 8px;
   border-radius: 4px;
   background: #f4d04e;
+`;
+
+const ProjectAnchor = styled.a`
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
 `;
 
 const CategoryText = styled.div`
@@ -102,7 +126,7 @@ const ProjectDate = styled.div`
   line-height: 150%;
 `;
 
-const ProjectTitle = styled.div`
+const ProjectTitle = styled.a`
   color: #111;
   font-size: 20px;
   font-style: normal;
