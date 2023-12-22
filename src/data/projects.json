@@ -55,7 +55,7 @@
     "thumbnail": "https://res.cloudinary.com/dz209s6jk/image/upload/v1647605683/Challenges/mow7ca07z3qa0ffbwc2p.jpg",
     "categoryText": "JS & API",
     "title": "Interactive Rating Component",
-    "description": "Simpel rating component made with React and Styled Components.",
+    "description": "Simple rating component made with React and Styled Components.",
     "date": "October 2022",
     "icons": ["FaReact", "RiJavascriptFill", "SiStyledcomponents"],
     "repo": "https://github.com/StefanPougatchev/interactive-rating-component"
@@ -66,7 +66,7 @@
     "thumbnail": "https://res.cloudinary.com/dz209s6jk/image/upload/v1701355692/Challenges/wjhbnth49rytugjjmucl.jpg",
     "categoryText": "JS & API",
     "title": "Faq Accordion",
-    "description": "Simpel Accordion component made with React and Styled Components.",
+    "description": "Simple Accordion component made with React and Styled Components.",
     "date": "December 2023",
     "icons": ["FaReact", "RiJavascriptFill", "SiStyledcomponents"],
     "repo": "https://github.com/StefanPougatchev/faq-accordion"
