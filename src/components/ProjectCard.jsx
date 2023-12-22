@@ -2,15 +2,17 @@
 import styled from 'styled-components';
 import { FaReact } from 'react-icons/fa';
 import { RiJavascriptFill } from 'react-icons/ri';
-import { FaFileAudio } from 'react-icons/fa';
 import { TbApi } from 'react-icons/tb';
 import { FaGithub } from 'react-icons/fa';
+import { AiFillAudio } from 'react-icons/ai';
+import { SiStyledcomponents } from 'react-icons/si';
 
 const iconComponents = {
   FaReact,
   RiJavascriptFill,
-  FaFileAudio,
+  AiFillAudio,
   TbApi,
+  SiStyledcomponents,
 };
 
 const ProjectCard = ({ projectInfo }) => {
@@ -46,11 +48,12 @@ const ProjectCard = ({ projectInfo }) => {
         {projectInfo.icons.map((iconName) => {
           const IconComponent = iconComponents[iconName];
           return (
-            <IconComponent
-              key={iconName}
-              size={24}
-              color='#f4d04e'
-            />
+            <StyledIconComponent key={iconName}>
+              <IconComponent
+                size={24}
+                color='#f4d04e'
+              />
+            </StyledIconComponent>
           );
         })}
       </TechStackContainer>
@@ -77,6 +80,7 @@ const ProjectThumbnail = styled.img`
   align-self: stretch;
   border-radius: 10px;
   background: #f4d04e;
+  object-fit: cover;
 `;
 
 const ProjectDetailsContainer = styled.div`
@@ -147,4 +151,13 @@ const ProjectDescription = styled.div`
   line-height: 150%;
 `;
 
+const StyledIconComponent = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  &:hover {
+    background: #111;
+  }
+`;
 export default ProjectCard;

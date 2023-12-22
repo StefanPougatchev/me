@@ -1,24 +1,63 @@
 [
   {
     "id": 1,
-    "url": "https://project1.example.com",
-    "thumbnail": "https://via.placeholder.com/327x200",
-    "categoryText": "JS & API",
-    "title": "Dictonary Web App",
-    "description": "A web app that allows users to search for words and get their definitions. It also plays the pronunciation of the word.",
-    "date": "2023-12-01",
-    "icons": ["FaReact", "RiJavascriptFill", "FaFileAudio", "TbApi"],
-    "repo": "https://github.com"
+    "url": "https://stefanpougatchev.github.io/qr-component/",
+    "thumbnail": "./src/assets/qr-component.jpeg",
+    "categoryText": "JS & Styled Components",
+    "title": "QR Component",
+    "description": "Simple QR component made with React and Styled Components.",
+    "date": "October 2022",
+    "icons": ["FaReact", "RiJavascriptFill", "SiStyledcomponents"],
+    "repo": "https://github.com/StefanPougatchev/qr-component"
   },
   {
     "id": 2,
-    "url": "https://project1.example.com",
-    "thumbnail": "https://via.placeholder.com/327x200",
+    "url": "https://stefanpougatchev.github.io/dictionary-web-app/",
+    "thumbnail": "./src/assets/dictonary-web-app.png",
     "categoryText": "JS & API",
     "title": "Dictonary Web App",
     "description": "A web app that allows users to search for words and get their definitions. It also plays the pronunciation of the word.",
-    "date": "2023-12-01",
-    "icons": ["FaReact", "RiJavascriptFill", "FaFileAudio", "TbApi"],
-    "repo": "https://github.com"
+    "date": "December 2023",
+    "icons": [
+      "FaReact",
+      "RiJavascriptFill",
+      "AiFillAudio",
+      "TbApi",
+      "SiStyledcomponents"
+    ],
+    "repo": "https://github.com/StefanPougatchev/dictionary-web-app"
+  },
+  {
+    "id": 3,
+    "url": "https://stefanpougatchev.github.io/github-user-search-app/",
+    "thumbnail": "./src/assets/github-user-search-app.jpeg",
+    "categoryText": "JS & API",
+    "title": "Github User Search App",
+    "description": "A web app that allows users to search for Github users and get their information.",
+    "date": "October 2022",
+    "icons": ["FaReact", "RiJavascriptFill", "TbApi", "SiStyledcomponents"],
+    "repo": "https://github.com/StefanPougatchev/github-user-search-app"
+  },
+  {
+    "id": 4,
+    "url": "https://stefanpougatchev.github.io/advice-generator-app/",
+    "thumbnail": "./src/assets/advice.jpeg",
+    "categoryText": "JS & API",
+    "title": "Advice Generator App",
+    "description": "A web app that generates random advice.",
+    "date": "October 2022",
+    "icons": ["FaReact", "RiJavascriptFill", "TbApi", "SiStyledcomponents"],
+    "repo": "https://github.com/StefanPougatchev/advice-generator-app"
+  },
+  {
+    "id": 5,
+    "url": "https://stefanpougatchev.github.io/interactive-rating-component/",
+    "thumbnail": "./src/assets/rating-component.jpeg",
+    "categoryText": "JS & API",
+    "title": "Interactive Rating Component",
+    "description": "Simpel rating component made with React and Styled Components.",
+    "date": "October 2022",
+    "icons": ["FaReact", "RiJavascriptFill", "SiStyledcomponents"],
+    "repo": "https://github.com/StefanPougatchev/interactive-rating-component"
   }
 ]
