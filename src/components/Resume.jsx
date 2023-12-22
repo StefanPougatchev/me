@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import resume from '../assets/Stefan_Pougatchev_Resume.jpg';
-import downloadResume from '../assets/Stefan_Pougatchev_Resume copy.pdf';
+import downloadResume from '../assets/Stefan_Pougatchev_Resume.pdf';
 
 const Resume = () => {
   const handleDownload = () => {
